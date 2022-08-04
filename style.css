@@ -80,7 +80,7 @@ body {
     justify-content: center;
 }
 .a2{
-    font-size: 14px; 
+    font-size: 18px; 
     margin-left: 20%;
     margin-right: 20%;
     justify-content: center;
@@ -112,10 +112,16 @@ body {
     }
     .nameSub{margin-top:415px;
     font-size: 14px;
-    margin-left: 0;
+    margin-right: 80px;
     }
-    .a2{font-size: 10px:
-    }
+    .a2{font-size: 14px;
+    margin-right:5%;
+    margin-left:5%;}
+    .a1{margin-right:5%;
+    margin-left:5%;}
+    .a3{margin-right:5%;
+    margin-left:5%;}
+
     .walk{display: flex;
     margin-top: 10px;
     text-align: center;
