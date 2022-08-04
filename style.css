@@ -13,52 +13,66 @@ body {
 }
 .masthead{
     justify-content: center;
+    align-content: center;
     display:flex;
     width: 100%;
     flex-grow: 0;
 }
 .vid{
+    border: 10px solid black;
+    max-width: 1080px;
     width: 100%;
     position: relative;
     justify-content: center;
 
 }
-.pic{
-    margin-bottom: 10px;
-    display: flex;
-    width: 250px;
-    margin-top: 200px;
-    height: auto;
-    justify-content: center;
+.videolayer{
     position: absolute;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-right:25%;
+    margin-left:35%;
+    height: auto%;
+    padding: 5% 0;
+
+
+}
+.pic{
+
+    position: relative;
+    margin: 0px;
+    display: flex;
+    width:75%;
+    max-width: 250px;
+    height: auto;
+    position: relative;
     border-radius: 15px;
     filter: drop-shadow(0 5px 3px rgba(0, 0, 0, 0.4));
 }
 .name{
-    display: flex;
-    color: white;
-    margin-top: 480px;
-    margin-right: 100px;
-    position: absolute;
-    line-height: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px; 
+    position: relative;
+    display: block;
+    color: white; 
     flex: 1;
     text-align: left;
     filter: drop-shadow(0 5px 3px rgb(0, 0, 0));
 }
 .nameSub{
+    margin-top: 0px;
+    position: relative;
     display: block;
     color: white;
-    margin-top: 515px;
-    margin-left: 63px; 
-    position: absolute;
-    line-height: 100px;
     flex: 1;
     text-align: left;
     filter: drop-shadow(0 5px 3px rgb(0, 0, 0));
 }
 .AboutMe{
-    position: relatiive;
-    margin-top: 50px;
+    position: absolute;
+    padding-top: 5px;
     display: block;    
     background: white;
     padding-left: 40px;
@@ -107,16 +121,8 @@ body {
     margin-bottom: 100px;
 }
 @media(max-width: 960px) {
-    .pic{margin-top: 100px;
-    width: 150px;
-    height: auto;
-    }
-    .name{margin-top:250px;
-    margin-right:0px; 
-    }
-    .nameSub{margin-top:280px;
-    font-size: 14px;
-    margin-left: 0px;
+    .videolayer{ margin-top:2%;}
+    .nameSub{ font-size:14px;
     }
     .a2{font-size: 14px;
     margin-right:5%;
