@@ -109,10 +109,11 @@ body {
     .pic{margin-top: 100px;
     }
     .name{margin-top:380px;
+    margin-right:0px;
     }
     .nameSub{margin-top:415px;
     font-size: 14px;
-    margin-right: 80px;
+    margin-left: 0px;
     }
     .a2{font-size: 14px;
     margin-right:5%;
