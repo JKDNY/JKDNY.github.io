@@ -9,15 +9,16 @@ body {
 }
 .mast{
     position: relative;
+    width: 100%;
 }
 .masthead{
     justify-content: center;
     display:flex;
+    width: 100%;
     flex-grow: 0;
 }
 .vid{
     width: 100%;
-    min-width: 1080px;
     position: relative;
     justify-content: center;
 
@@ -107,11 +108,13 @@ body {
 }
 @media(max-width: 960px) {
     .pic{margin-top: 100px;
+    width: 150px;
+    height: auto;
     }
-    .name{margin-top:380px;
-    margin-right:0px;
+    .name{margin-top:250px;
+    margin-right:0px; 
     }
-    .nameSub{margin-top:415px;
+    .nameSub{margin-top:280px;
     font-size: 14px;
     margin-left: 0px;
     }
