@@ -145,7 +145,7 @@ body {
     text-align: center;
     margin-top: 100px;
     }
-    .links{column-gap: 15px;
+    .links{column-gap: 10px;
     column-count: 2;}
 }
 
