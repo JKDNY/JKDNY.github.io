@@ -2,4 +2,4 @@
 
 Webpage made with HTML and CSS  
 
-Go to site: [Personal Site](httpss://85Jakob.github.io)
+Go to site: (https://85Jakob.github.io)
