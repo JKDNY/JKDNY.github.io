@@ -1,5 +1,5 @@
-# 85Jakob.github.io
+# JKDNY.github.io
 
 Webpage made with HTML and CSS  
 
-Go to site: (https://85Jakob.github.io)
+Go to site: (https://JKDNY.github.io)
